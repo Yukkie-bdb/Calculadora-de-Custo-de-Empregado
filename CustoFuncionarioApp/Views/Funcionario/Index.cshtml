@@ -1,0 +1,35 @@
+﻿@model CustoFuncionarioApp.Models.Funcionario
+
+<h2>Cálculo do Custo do Funcionário</h2>
+
+<form asp-action="Calcular">
+    <div class="form-group">
+        <label for="Nome">Nome</label>
+        <input type="text" class="form-control" id="Nome" name="Nome" value="@Model?.Nome" required />
+    </div>
+
+    <div class="form-group">
+        <label for="SalarioBase">Salário Base</label>
+        <input type="number" class="form-control" id="SalarioBase" name="SalarioBase" step="0.01" value="@Model?.SalarioBase" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Desconto">Desconto</label>
+        <input type="number" class="form-control" id="Desconto" name="Desconto" step="0.01" value="@Model?.Desconto" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Beneficio">Benefício</label>
+        <input type="number" class="form-control" id="Beneficio" name="Beneficio" step="0.01" value="@Model?.Beneficio" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Calcular</button>
+</form>
+
+@if (ViewData["CustoFuncionario"] != null)
+{
+    <div class="mt-3">
+        <label for="CustoFuncionario">Custo Final do Funcionário:</label>
+        <input type="text" class="form-control" id="CustoFuncionario" readonly value="@ViewData["CustoFuncionario"].ToString()" />
+    </div>
+}
