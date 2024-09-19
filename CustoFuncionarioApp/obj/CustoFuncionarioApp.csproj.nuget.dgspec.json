@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eric\\source\\repos\\CustoFuncionarioApp\\CustoFuncionarioApp\\CustoFuncionarioApp.csproj": {}
+    "C:\\Users\\Eric\\source\\repos\\Calculadora-de-Custo-de-Empregado\\CustoFuncionarioApp\\CustoFuncionarioApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eric\\source\\repos\\CustoFuncionarioApp\\CustoFuncionarioApp\\CustoFuncionarioApp.csproj": {
+    "C:\\Users\\Eric\\source\\repos\\Calculadora-de-Custo-de-Empregado\\CustoFuncionarioApp\\CustoFuncionarioApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric\\source\\repos\\CustoFuncionarioApp\\CustoFuncionarioApp\\CustoFuncionarioApp.csproj",
+        "projectUniqueName": "C:\\Users\\Eric\\source\\repos\\Calculadora-de-Custo-de-Empregado\\CustoFuncionarioApp\\CustoFuncionarioApp.csproj",
         "projectName": "CustoFuncionarioApp",
-        "projectPath": "C:\\Users\\Eric\\source\\repos\\CustoFuncionarioApp\\CustoFuncionarioApp\\CustoFuncionarioApp.csproj",
+        "projectPath": "C:\\Users\\Eric\\source\\repos\\Calculadora-de-Custo-de-Empregado\\CustoFuncionarioApp\\CustoFuncionarioApp.csproj",
         "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric\\source\\repos\\CustoFuncionarioApp\\CustoFuncionarioApp\\obj\\",
+        "outputPath": "C:\\Users\\Eric\\source\\repos\\Calculadora-de-Custo-de-Empregado\\CustoFuncionarioApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
