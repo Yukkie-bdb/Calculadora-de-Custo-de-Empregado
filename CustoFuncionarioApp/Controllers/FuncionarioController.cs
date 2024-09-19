@@ -14,12 +14,16 @@ namespace CustoFuncionarioApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                var custoFuncionario = funcionario.SalarioBase + funcionario.Beneficio - funcionario.Desconto;
-
+                var custoFuncionario = CalcularCustoFuncionario(funcionario);
                 ViewData["CustoFuncionario"] = custoFuncionario;
             }
 
-            return View("Index", funcionario); // Retorna à view 'Index' com o modelo 'funcionario'
+            return View("Index", funcionario);
+        }
+
+        public static decimal CalcularCustoFuncionario(Funcionario funcionario)
+        {
+            return funcionario.SalarioBase + funcionario.Beneficio - funcionario.Desconto;
         }
     }
 }

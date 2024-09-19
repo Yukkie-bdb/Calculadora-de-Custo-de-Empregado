@@ -12,17 +12,17 @@
 
             <div class="form-group">
                 <label for="SalarioBase">Salário Base</label>
-                <input type="number" class="form-control" id="SalarioBase" name="SalarioBase" step="0.01" value="@Model?.SalarioBase" required placeholder="Valor do Sálario Base" />
+                <input type="number" class="form-control" id="SalarioBase" name="SalarioBase" step="1" value="@Model?.SalarioBase" required placeholder="Valor do Sálario Base" />
             </div>
 
             <div class="form-group">
                 <label for="Desconto">Desconto</label>
-                <input type="number" class="form-control" id="Desconto" name="Desconto" step="0.01" value="@Model?.Desconto" required placeholder="Total de Descontos do funcionario" />
+                <input type="number" class="form-control" id="Desconto" name="Desconto" step="1" value="@Model?.Desconto" required placeholder="Total de Descontos do funcionario" />
             </div>
 
             <div class="form-group">
                 <label for="Beneficio">Benefício</label>
-                <input type="number" class="form-control" id="Beneficio" name="Beneficio" step="0.01" value="@Model?.Beneficio" required placeholder="Total de Benefícios do funcionario" />
+                <input type="number" class="form-control" id="Beneficio" name="Beneficio" step="1" value="@Model?.Beneficio" required placeholder="Total de Benefícios do funcionario" />
             </div>
 
             <button type="submit" class="btn btn-primary mt-3 col-12">Calcular</button>
